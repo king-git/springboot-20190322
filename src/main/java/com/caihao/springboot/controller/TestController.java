@@ -25,7 +25,7 @@ public class TestController {
     @RequestMapping("/t2")
     public ModelAndView  init2(ModelAndView mv){
 
-        mv.addObject("c1","他是谁？");
+        mv.addObject("c1","访问者");
         mv.setViewName("redirect:/caihao");
 
         return mv;
